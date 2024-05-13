@@ -24,10 +24,8 @@
 
                 if (chute > item) maior = mid - 1;
 
-                else
-                {
-                    menor = mid + 1;
-                }
+                else menor = mid + 1;
+                
             }
 
             return -1; 
